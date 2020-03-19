@@ -2,7 +2,7 @@ print("Building static site")
 
 print("Reading in template html variables")
 top_html = open('./templates/top.html').read()
-bottom_html = open('./templates/top.html').read()
+bottom_html = open('./templates/bottom.html').read()
 
 print("Reading in content html variables")
 index_html = open('./content/index.html').read()
